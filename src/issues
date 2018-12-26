@@ -1,0 +1,10 @@
+web.xml
+
+###issue in tomcat_manager
+
+forgot to write '\' before book
+
+ <servlet-mapping>
+    <servlet-name>Main</servlet-name>
+    <url-pattern>/servlet/book/*</url-pattern>
+</servlet-mapping>
